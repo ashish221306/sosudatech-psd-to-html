@@ -1,0 +1,289 @@
+body {
+    font-size: 26px;
+}
+
+.main {
+    margin-bottom: 50px;
+}
+
+header {
+    padding: 10px;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-form {
+    background: blue;
+}
+
+.dropdown-menu {
+    width: 100% !;
+    color: #000;
+}
+
+.dropdown-menu .nav-item a {
+    color: #000 !important;
+}
+
+.header {
+    width: 100%;
+    height: 124px;
+}
+
+.dropdown-menu .nav .nav-item .nav-link {
+    color: black !important;
+    padding: 10px;
+    font-size: 14px !important;
+}
+
+h2.serviceHeading {
+    margin-top: 98px;
+    line-height: 54px;
+    margin-bottom: 82px;
+    font-size: 29.11px;
+}
+
+@font-face {
+    font-family: aller-bold;
+    src: url('./fonts/aller-bold.ttf');
+}
+
+@font-face {
+    font-family: aller-regular;
+    src: url('./fonts/Aller-Regular.ttf');
+}
+
+.box {
+    width: 400px;
+    padding: 26px;
+
+    flex-shrink: 0;
+}
+
+.box p {
+    padding: 10px;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: aller-regular, sans-serif;
+    padding-left: 0;
+}
+
+.box h3 {
+    font-family: aller-bold, sans-serif;
+    font-size: 25.66px;
+    line-height: 100%;
+    word-wrap: none;
+}
+
+.box a {
+    font-family: aller-regular, sans-serif;
+    font-size: 18px;
+}
+
+
+
+
+.contact i {
+    color: black;
+    padding: 6px;
+    margin: 3px;
+}
+
+.banner {
+    color: #f1f1f1;
+    height: 100vh;
+    background-color: black;
+}
+
+.navbar ul.navbar-nav li a {
+    color: #f1f1f1 !important;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.overlay h2 {
+    font-size: 80px;
+}
+
+.overlay p {
+    font-size: 70px;
+}
+
+h2.serviceHeading {
+    font-size: 50px;
+    line-height: 70px;
+}
+
+@media screen and (max-width:768px) {
+    .contact .letstalkbtn {
+        border: 1px solid red;
+        padding: 5px 7px;
+        margin: 5px;
+        font-size: 20px;
+        text-decoration: none;
+        color: red;
+        box-sizing: border-box;
+
+        font-weight: 500;
+
+
+    }
+
+    .contact a {
+        font-size: 22px;
+
+    }
+
+    header {
+        text-align: center;
+    }
+
+    .banner {
+        height: 300px;
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        height: 300px;
+    }
+
+    .banner .overlay {
+        width: 100%;
+        position: absolute;
+        top: 20%;
+        left: 0;
+    }
+
+    .overlay h2 {
+        font-size: 40px;
+    }
+
+    .overlay p {
+        font-size: 35px;
+    }
+
+    h2.serviceHeading {
+        margin-top: 48px;
+        text-transform: capitalize;
+        line-height: 40px;
+        margin-bottom: 41px;
+        font-size: 29.11px;
+    }
+
+
+    .box {
+        width: 90%;
+    }
+
+    .box img {
+        margin-bottom: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .nav-item #searchform input {
+        background: blue;
+        color: #f1f1f1 !important;
+        outline: none;
+        width: 85%;
+        border: none;
+    }
+
+    .nav-item #searchform input::placeholder {
+        color: #f1f1f1;
+    }
+
+    #searchform {
+        vertical-align: middle;
+
+        background: blue !important;
+
+
+    }
+
+    #searchform button {
+        display: inline;
+        outline: none;
+        border: none;
+        color: #f1f1f1;
+        background: transparent;
+    }
+}
+
+
+@media screen and (min-width:800px) {
+    #navbarSupportedContent {
+        margin-left: 100px;
+    }
+
+    .nav-item #searchform input {
+        background: blue;
+        color: #f1f1f1 !important;
+        outline: none;
+        border: none;
+
+    }
+
+    .nav-item #searchform input::placeholder {
+        color: #f1f1f1;
+    }
+
+    #searchform {
+        vertical-align: middle;
+        padding: 11px;
+        background: blue !important;
+        margin: -8px 0;
+        margin-left: 10px;
+    }
+
+    #searchform button {
+        display: inline;
+        outline: none;
+        border: none;
+        color: #f1f1f1;
+        background: transparent;
+    }
+    /**/
+    .contact a:nth-child(2) {
+        border-left: 1px solid #000;
+        margin-left: 10px;
+        padding-left: 20px;
+
+    }
+
+    header .logo {
+        margin-left: 180px;
+    }
+
+    .banner .overlay {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100%;
+    }
+
+    .contact .letstalkbtn {
+        border: 1px solid red;
+        padding: 20px 36px;
+        font-size: 20px;
+        text-decoration: none;
+        color: red;
+        box-sizing: border-box;
+        line-height: 0px;
+        font-weight: 500;
+        height: 48px;
+        margin-right: 20px;
+
+    }
+}
